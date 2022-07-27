@@ -24,7 +24,10 @@
                         </div> --}}
 
                         <div class="" style="float: right">
+                            @can('create', App\Pasien::class)
+                                
                             <a href="/pasien/form" class="btn btn-sm btn-primary">Tambah Data</a>
+                            @endcan
                         </div>
                     </div>
                     <!-- /.card-header -->
